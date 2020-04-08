@@ -1,0 +1,117 @@
+header {
+    height: 80px;
+    background-color: #E0EEC6;
+    font-family: fantasy;
+    
+}
+
+nav {
+    height:60px;
+    background-color:cornsilk;
+}
+
+
+a:active {
+    color: blanchedalmond;
+}
+
+footer {
+    height:80px;
+    background-color: aliceblue;
+    margin-top: 200px;
+}
+
+.nav {
+    margin: 0px;
+    display: inline-flex;
+    width:150px;
+    padding-left:200px;
+    text-align: center;
+    
+    
+}
+
+.navs {
+    font-size:20px;
+    color:darkslategray;
+    transition: font-size linear;
+    transition-duration: 100ms;
+    
+}
+
+.navs:hover {
+    font-size:24px;
+    
+    
+}
+
+.head {
+    text-align: center;
+    font-family: montserrat;
+    
+}
+
+hr {
+    width:300px;
+    
+    border: solid 1px red ;
+}
+
+.images {
+/*    margin-top: 50px;*/
+    width:50%;
+    height:300px;
+}
+
+.image {
+    width:90%;
+    max-height:300px;
+    margin-left: 30px;
+    box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.3), 0 10px 30px 0 rgba(0, 0, 0, 0.19);
+    
+    
+}
+
+.para {
+ width:50%;
+     height:auto;
+/*    background-color: aqua;*/
+    float: right;
+    margin-top: -300px;
+    padding-left: 50px;
+    
+}
+
+.paragraph {
+    font-family: montserrat;
+    font-size: 16px;
+    color: #616161;
+    margin-left: 20px;
+    margin-top: -5px;
+    text-align: justify;
+    font-weight: 400;
+    word-spacing: 3px;
+    line-height: 20px
+}
+
+em {
+    text-align: center;
+}
+
+.row {
+    margin-top: 50px;
+    width:90%;
+    align-items: center;
+    height:350px;
+}
+header {
+    font-size:44px;
+    text-align: center;
+    padding-top:25px;
+    color:darkslategray;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
